@@ -1,0 +1,126 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+border: 1px solid black;
+width: 100vw;
+height: 100px;
+background-color: darkorange;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.logo{
+padding: 20px;
+font-size: 20pt;
+font-family: 'Courier New', Courier, monospace;
+width: 600px;
+text-align: center;
+color: white;
+}
+.empresa{
+padding: 20px;
+font-size: 16pt;
+font-family: 'Courier New', Courier, monospace;
+width: 600px;
+text-align: center;
+color: white;
+}
+nav{
+padding: 20px;
+font-size: 16pt;
+font-family: 'Courier New', Courier, monospace;
+width: 600px;
+text-align: center;
+}
+nav ul{
+margin: 0;
+padding: 0;
+}
+nav li{
+list-style: none;
+margin: 10px;
+display: inline;
+}
+nav li a{
+padding: 5px 10px;
+margin: 0;
+border: 0px solid #f00;
+background: brown;
+text-decoration: none;
+color: #FFF;
+/* cantos arredondados */
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+nav li a:hover{
+background: #CCC;
+color: #000;
+border-color: #000;
+}
+.container{
+width: 100vw;
+border: 1px solid black;
+background-color: bisque;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.container .banner img{
+margin: 10px auto;
+width: 1230px;
+background-size: cover;
+height: 300px;
+}
+.container .banner{
+width: 90vw;
+background-color: darkred;
+}
+.container .sobre{
+width: 90vw;
+height: 300px;
+margin-left: 20px ;
+margin-right: 100px;
+padding: 0px;
+text-align: justify;
+}
+.container .sobre h2{
+padding: 20px;
+}
+footer{
+border: 1px solid black;
+background-color: black;
+color: white;
+width: 100vw;
+height: 80px;
+}
+.mapbox{
+position: relative;
+width: 600px;
+height: 400px;
+background: #FFF;    
+}
+.mapbox iframe{
+width: 100%;
+height: 100%;    
+}
+.logo img{
+width: 160px;
+height: 90px;
+}
+.container .fome h2{  
+padding: 20px;
+}
+.container .contato h4{
+font-size: 20pt;  
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+.text1{
+text-align: center;    
+font-size: 16pt;
+}
